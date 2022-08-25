@@ -1,1 +1,1 @@
-# Git-actions2
+# Git-secrets
