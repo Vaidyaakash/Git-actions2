@@ -20,4 +20,4 @@ jobs:
       - name: Run a multi-line script
         run: 
           echo need to do practice for it,
-          echo this is for practice purpose
+          echo $Message
