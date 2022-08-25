@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo ${{secrets.MESSAGE}}
+        run: echo secret 1 ${{secrets.MESSAGE}}
       - name: Run a multi-line script
         run: 
           echo need to do practice for it,
-          echo ${{secrets.MESSAGE}}
+          echo secrets 2 ${{secrets.MY_NAME}}
