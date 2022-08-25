@@ -19,5 +19,5 @@ jobs:
         run: echo $Message
       - name: Run a multi-line script
         run: 
-          echo welcome user,
-          echo hey there, i'm good
+          echo need to do practice for it,
+          echo this is for practice purpose
