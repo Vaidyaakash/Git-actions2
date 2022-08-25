@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: echo $Message
+        run: echo $MESSAGE
       - name: Run a multi-line script
         run: 
           echo need to do practice for it,
-          echo $Message
+          echo $MESSAGE
