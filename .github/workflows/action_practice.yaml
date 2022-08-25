@@ -1,0 +1,22 @@
+name: action-practice
+env:
+  Message: "hey, i'm akash, nice to meet you"
+on:
+  push:
+    braches: ["main","master"]
+  pull_request:
+    braches: ["main","master"]
+  workflow_dispatch:
+  
+jobs:
+  my_action_job_1:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: Run a one-line script
+          run: echo $Message
+        - name: Run a multi-line script
+          run: 
+            echo welcome user
+            echo hey there, i'm good
